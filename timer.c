@@ -1,9 +1,5 @@
 #include <stdio.h>
-#ifdef WIN32
-#include<Windows.h>
-#else
 #include <unistd.h>
-#endif
 #include <stdlib.h>
 
 int main () {

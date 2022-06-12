@@ -8,7 +8,7 @@ int main () {
 	printf("Masukkan waktunya (format jam<spasi>menit<spasi>detik): ");
 	scanf("%d %d %d", &jam, &menit, &detik);
 
-	if (menit > 60) || (detik > 60) || (jam < 0) || (menit < 0) || (detik < 0)) {
+	if ((menit > 60) || (detik > 60) || (jam < 0) || (menit < 0) || (detik < 0)) {
 		printf("Input yang kamu masukkan tidak valid. \n");
 	}
 	
